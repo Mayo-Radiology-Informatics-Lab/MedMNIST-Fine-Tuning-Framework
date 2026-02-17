@@ -2,6 +2,13 @@
 
 A PyTorch-based framework for fine-tuning pretrained models on MedMNIST datasets with configurable training strategies.
 
+The project also provides a dedicated results page summarizing fine-tuning performance across all MedMNIST datasets.  
+This includes benchmark metrics and downloadable pretrained checkpoints for two representative architectures: **DenseNet**, **Swin Transformer**:
+
+https://tubo.github.io/MedMNIST-Fine-Tuning-Visualization/
+
+These domain-specific weights can serve as a strong initialization for related medical imaging tasks, offering an alternative to standard ImageNet pretraining.
+
 ## Features
 
 - **Multiple Backbones**: ResNet, DenseNet, EfficientNet, ViT, Swin Transformer
